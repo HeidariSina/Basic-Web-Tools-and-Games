@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+  color: #f7f7f7;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}
+.main {
+  height: 100vh;
+  width: 100%;
+  background-color: #151515;
+  padding-top: 2rem;
+}
+.h1 {
+  font-size: 3.2rem;
+  margin-bottom: 2rem;
+}
+.textbox {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  font-size: 1.4rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border: 0.1rem outset;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 0.5rem;
+  box-shadow: 0px 1px 3px white;
+}
+.newGameBox {
+  height: 80%;
+  width: 100%;
+  overflow: scroll;
+}
+.box {
+  margin-top: 2rem;
+  margin-right: auto;
+  margin-left: auto;
+  width: 40%;
+  height: 8rem;
+  border: 0.15rem solid #f7f7f7;
+  border-radius: 1rem;
+  filter: blur(0.5);
+  background-color: #252525;
+  display: flex;
+}
+.box2 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  width: 30%;
+}
+.box3 {
+  display: flex;
+  align-items: center;
+  font-size: 3rem;
+  font-style: italic;
+}
+.pro {
+  margin-left: 2rem;
+  border: 0.2rem solid #eee;
+  border-radius: 5rem;
+  height: 80%;
+}
+.newplayerB {
+  width: 4rem;
+  height: 4rem;
+  border: 0.2rem solid;
+  border-radius: 3rem;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 3rem;
+  font-weight: 700;
+  margin-right: 1rem;
+  margin-left: -2rem;
+}
+.newPlayerBox {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  font-size: 3rem;
+}
+.mainButton {
+  height: 5rem;
+  width: 15rem;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 1rem;
+  border: none;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+.CancleButton {
+  background-color: rgba(187, 36, 36, 0.801);
+}
+.StartButton {
+  background-color: rgba(38, 145, 28, 0.801);
+}
+.buttonBox {
+  margin: 0rem auto;
+  width: 50%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.diceImage {
+  width: 4rem;
+}
+.diceImageDiv {
+  margin: 0 auto;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.dicePText {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-style: italic;
+}
+.playerDiceBox {
+  padding: 2rem 0rem;
+  background-color: #252525;
+}
+.playersBox {
+  width: 100%;
+  height: 78%;
+}
+.playerButtonBox {
+  font-size: 1.3rem;
+  margin: 0 auto;
+  width: 60%;
+  height: 13%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#dice {
+  width: 3rem;
+  background-color: #353535;
+  border: 0;
+  text-align: center;
+}
+#num {
+  width: 3rem;
+  background-color: #353535;
+  border: 0;
+  text-align: center;
+}
+.playerButton {
+  background-color: rgba(9, 150, 9, 0);
+  border: 0.1rem;
+  border-style: groove;
+  border-radius: 0.5rem;
+  width: 8rem;
+  height: 2.3rem;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+.playerButton:disabled {
+  cursor: not-allowed;
+}
+.foldButton {
+  cursor: pointer;
+  border: none;
+  background-color: rgba(196, 10, 10, 0.815);
+  width: 6rem;
+  height: 2.3rem;
+  border-radius: 0.5rem;
+  font-size: 1.3rem;
+}
+.playerCards {
+  height: 83%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.card {
+  height: 85%;
+  width: 14%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 0.1rem solid;
+  border-radius: 3rem;
+  box-shadow: 0px 0px 5px;
+  font-size: 1.3rem;
+}
+.icon {
+  border-radius: 50rem;
+  width: 7rem;
+}
+.hearthIcon {
+  width: 3rem;
+  color: #f7f7f7;
+}
+.diceIcon {
+  height: 3rem;
+}
+.LastBet {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 10%;
+}
+.h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+.finalDiv {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.lostP {
+  font-size: 5rem;
+  font-style: italic;
+  color: rgb(231, 17, 17);
+}
+.lostButton {
+  color: rgba(231, 17, 17, 0.705);
+  cursor: pointer;
+  font-size: 2rem;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+.winP {
+  font-size: 5rem;
+  font-style: italic;
+  color: rgb(9, 255, 0);
+}
+.winButton {
+  color: rgb(0, 156, 8);
+  cursor: pointer;
+  font-size: 2rem;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+.hhh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+}
+@media screen and (max-width: 1300px) {
+  .box {
+    width: 60%;
+  }
+  .buttonBox {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .box {
+    width: 80%;
+  }
+  .buttonBox {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .box {
+    width: 95%;
+  }
+  .buttonBox {
+    width: 95%;
+  }
+}
