@@ -19,25 +19,22 @@ Each folder contains a separate tool or game, ready to be opened and used in a b
 2. **Breakout**:
    - A browser-based version of the classic Breakout game. Use the paddle to break bricks by bouncing a ball.
 
-3. **CSS Perspective**:
-   - A demonstration of how to use CSS perspective and 3D transformations to create engaging visual effects.
-
-4. **Liar's Dice**:
+3. **Liar's Dice**:
    - A digital version of the popular dice game Liar’s Dice. The game challenges players to bluff and guess the outcome of rolled dice.
 
-5. **Lines and Boxes**:
+4. **Lines and Boxes**:
    - An implementation of the classic Dots and Boxes game where players take turns drawing lines to form boxes.
 
-6. **Maze**:
+5. **Maze**:
    - A simple maze game where the player needs to navigate through a maze to reach the end.
 
-7. **Piano**:
+6. **Piano**:
    - A virtual piano keyboard that allows users to play notes and create melodies by clicking on the keys.
 
-8. **Ping Pong**:
+7. **Ping Pong**:
    - A two-player Ping Pong (table tennis) game where each player controls a paddle and tries to score against the other.
 
-9. **Shootout**:
+8. **Shootout**:
    - A basic shooting game where players aim and shoot at moving targets to score points.
 
 ## How to Use
